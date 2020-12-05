@@ -8,9 +8,14 @@ You can still use the Chromium or Firefox browsers but the performance is barely
 - Support for Adobe Flash technology (not particularly relevant).
 - Сloud-based content compression technology with saving and encrypts traffic.
 - Supports working with cloud storage.
+- Pretty cheap price, just $2 a month, for the first month for free, for such a browser is not sorry to pay so much
 
 **Disadvantages**:
 - Based on old version of Chromium engine, because of this, some sites refuse to working.
 - No support for DRM and browser extensions
 
-You can install Puffin Internet Terminal by either of the two ways: automatically or manually
+## Installation :
+### For Debian-based systems (armhf, i386, x86_64) :
+```
+sudo apt update && sudo apt install wget -y && wget -q  -O- | sudo apt-key add - && sudo wget https://raw.githubusercontent.com/ZhymabekRoman/Puffin-Browser-on-Linux/main/puffin-internet-terminal.list -O /etc/apt/sources.list.d/puffin-internet-terminal.list
+```
