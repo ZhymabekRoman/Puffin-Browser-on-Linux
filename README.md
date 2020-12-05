@@ -6,7 +6,7 @@ You can still use the Chromium or Firefox browsers but the performance is barely
 
 **Benefits**:
 - Support for Adobe Flash technology (not particularly relevant).
-- Сloud-based content compression technology with saving and encrypts traffic.
+- Сloud-based content compression technology with saving and encrypts traffic, because of this, the browser works very quickly and does not use much RAM
 - Supports working with cloud storage.
 - Pretty cheap price, just $2 a month, for the first month for free, for such a browser is not sorry to pay so much
 
