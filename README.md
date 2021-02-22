@@ -8,6 +8,7 @@ You can still use the Chromium or Firefox browsers but the performance is barely
 - Support for Adobe Flash technology (not particularly relevant).
 - Сloud-based content compression technology with saving and encrypts traffic, because of this, the browser works very quickly and does not use much RAM
 - Supports working with cloud storage.
+- Own ads blocker, works with 97% efficiency
 - Pretty cheap price, just $2 a month, for the first month for free, for such a browser is not sorry to pay so much
 
 **Disadvantages**:
@@ -15,7 +16,9 @@ You can still use the Chromium or Firefox browsers but the performance is barely
 - No support for DRM and browser extensions
 
 ## Installation :
-### For Debian-based systems (armhf, i386, x86_64) :
+### For Debian-based Linux Distributions:
+Note: only for i386 and amd64 processors! armv7/aarch64 in working process
+#### First method - by adding Puffin repositories to the system
 - Full version (Paid)
 ```
 sudo apt update && sudo apt install wget -y && wget -q https://raw.githubusercontent.com/ZhymabekRoman/Puffin-Browser-on-Linux/main/puffin-internet-terminal.gpg -O- | sudo apt-key add - && sudo wget https://raw.githubusercontent.com/ZhymabekRoman/Puffin-Browser-on-Linux/main/puffin-internet-terminal.list -O /etc/apt/sources.list.d/puffin-internet-terminal.list && sudo apt update && sudo apt install puffin-internet-terminal -y
@@ -24,3 +27,25 @@ sudo apt update && sudo apt install wget -y && wget -q https://raw.githubusercon
 ```
 sudo apt update && sudo apt install wget -y && wget -q https://raw.githubusercontent.com/ZhymabekRoman/Puffin-Browser-on-Linux/main/puffin-internet-terminal.gpg -O- | sudo apt-key add - && sudo wget https://raw.githubusercontent.com/ZhymabekRoman/Puffin-Browser-on-Linux/main/puffin-internet-terminal.list -O /etc/apt/sources.list.d/puffin-internet-terminal.list && sudo apt update && sudo apt install puffin-internet-terminal-demo -y
 ```
+#### Second method - by manual installing deb package
+- Full version (Paid)
+```
+sudo apt update && sudo apt install wget -y && wget -O /tmp/puffin-internet-terminal_full.dpkg http://github.com/ZhymabekRoman/Puffin-Browser-on-Linux/blob/main/deb/full/puffin-internet-terminal_8.2.4.705_`dpkg --print-architecture`.deb?raw=true && sudo dpkg -i /tmp/puffin-internet-terminal_full.dpkg; sudo apt install -f  && rm /tmp/puffin-internet-terminal_full.dpkg
+```
+- Demo version
+```
+sudo apt update && sudo apt install wget -y && wget -O /tmp/puffin-internet-terminal_demo.dpkg http://github.com/ZhymabekRoman/Puffin-Browser-on-Linux/blob/main/deb/demo/puffin-internet-terminal-demo_8.2.4.705_`dpkg --print-architecture`.deb?raw=true && sudo dpkg -i /tmp/puffin-internet-terminal_demo.dpkg; sudo apt install -f  && rm /tmp/puffin-internet-terminal_demo.dpkg
+```
+
+## Running:
+- Full version (Paid)
+```
+puffin
+```
+- Demo version
+```
+puffin_demo
+```
+
+
+\* Honestly I didn't notice the difference between Paid and Demo version, demo version also fully works as paid
