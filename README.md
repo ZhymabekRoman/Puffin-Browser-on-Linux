@@ -2,14 +2,14 @@
 _Note: for **Windows** the browser is called **Puffin Secure Browser** or simply **Puffin Browser**, for **Linux** the browser is called **Puffin Internet Terminal**. Initially **Puffin Internet Terminal** is intended for **Raspberry Pi** devices, but this does not prevent it from being installed on a regular Debian-based computer.
 You can still use the Chromium or Firefox browsers but the performance is barely acceptable, on Raspberry Pi devices or if you have a very low Internet speed, and a very weak device._
 
-**Puffin Internet Terminal** is a functional browser with support for modern technologies. The main feature of the program is support for Adobe Flash technology for viewing video, multimedia elements or a full version of websites. Puffin Internet Terminal provides fast page loading with **cloud-based content compression technology** and **saves traffic**. The program allows anonymous use of the browser, does not save the history of viewed websites. Puffin Internet Terminal also **encrypts traffic** to protect against external influences and **supports working with cloud storage**.
+**Puffin Internet Terminal** is a fast functional browser ~~with support for modern technologies~~. The main feature of the browser is support for Adobe Flash technology for viewing video, multimedia elements or a full version of websites. Puffin Internet Terminal provides fast page loading with **cloud-based content compression technology** and **saves traffic**. The program allows anonymous use of the browser, does not save the history of viewed websites. Puffin Internet Terminal also **encrypts traffic** to protect against external influences and **supports working with cloud storage**.
 
 **Benefits**:
-- Support for Adobe Flash technology (not particularly relevant).
-- Сloud-based content compression technology with saving and encrypts traffic, because of this, the browser works very quickly and does not use much RAM
+- Support for Adobe Flash technology (no longer in demand).
+- Cloud-based content compression technology with saving and encrypts traffic, because of this, the browser works very quickly and does not use much RAM
 - Supports working with cloud storage.
 - Own ads blocker, works with 97% efficiency
-- Pretty cheap price, just $2 a month, for the first month for free, for such a browser is not sorry to pay so much
+- Pretty cheap price, just $2 a month, first month for free
 
 **Disadvantages**:
 - Based on old version of Chromium engine, because of this, some sites refuse to working.
