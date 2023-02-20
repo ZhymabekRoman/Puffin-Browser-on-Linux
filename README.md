@@ -1,4 +1,4 @@
-# Puffin Browser on Linux - Unofficial instructions about installing Puffin Internet Terminal on Linux
+# Puffin Browser on Linux - Unofficial guide to installing Puffin Internet Terminal on Linux
 _Note: for **Windows** the browser is called **Puffin Secure Browser** or simply **Puffin Browser**, for **Linux** the browser is called **Puffin Internet Terminal**. Initially **Puffin Internet Terminal** is intended for **Raspberry Pi** devices, but this does not prevent it from being installed on a regular Debian-based computer.
 You can still use the Chromium or Firefox browsers but the performance is barely acceptable, on Raspberry Pi devices or if you have a very low Internet speed, and a very weak device._
 
@@ -21,7 +21,7 @@ Cloudmosa has not published instructions on how to install Puffin on Linux syste
 ## Installation :
 ### For Debian-based Linux Distributions:
 Note: only for i386 and amd64 processors! armv7/aarch64 in working process
-#### First method - by adding Puffin repositories to the system
+####  First method - by adding Puffin's official repositories to the system (recommended)
 - Full version (Paid)
 ```
 sudo apt update && sudo apt install wget -y && wget -q https://raw.githubusercontent.com/ZhymabekRoman/Puffin-Browser-on-Linux/main/puffin-internet-terminal.gpg -O- | sudo apt-key add - && sudo wget https://raw.githubusercontent.com/ZhymabekRoman/Puffin-Browser-on-Linux/main/puffin-internet-terminal.list -O /etc/apt/sources.list.d/puffin-internet-terminal.list && sudo apt update && sudo apt install puffin-internet-terminal -y
@@ -30,7 +30,7 @@ sudo apt update && sudo apt install wget -y && wget -q https://raw.githubusercon
 ```
 sudo apt update && sudo apt install wget -y && wget -q https://raw.githubusercontent.com/ZhymabekRoman/Puffin-Browser-on-Linux/main/puffin-internet-terminal.gpg -O- | sudo apt-key add - && sudo wget https://raw.githubusercontent.com/ZhymabekRoman/Puffin-Browser-on-Linux/main/puffin-internet-terminal.list -O /etc/apt/sources.list.d/puffin-internet-terminal.list && sudo apt update && sudo apt install puffin-internet-terminal-demo -y
 ```
-#### Second method - by manual installing deb package
+#### Second method - by manual installing deb package, if you have problems with the repository
 - Full version (Paid)
 ```
 sudo apt update && sudo apt install wget -y && wget -O /tmp/puffin-internet-terminal_full.dpkg http://github.com/ZhymabekRoman/Puffin-Browser-on-Linux/blob/main/deb/full/puffin-internet-terminal_8.2.4.705_`dpkg --print-architecture`.deb?raw=true && sudo dpkg -i /tmp/puffin-internet-terminal_full.dpkg; sudo apt install -f  && rm /tmp/puffin-internet-terminal_full.dpkg
