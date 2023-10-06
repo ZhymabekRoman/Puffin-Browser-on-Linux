@@ -43,8 +43,20 @@ sudo apt update && sudo apt install wget -y && wget -O /tmp/puffin-internet-term
 sudo apt update && sudo apt install wget -y && wget -O /tmp/puffin-internet-terminal_demo.dpkg http://github.com/ZhymabekRoman/Puffin-Browser-on-Linux/blob/main/deb/demo/puffin-internet-terminal-demo_8.2.4.705_`dpkg --print-architecture`.deb?raw=true && sudo dpkg -i /tmp/puffin-internet-terminal_demo.dpkg; sudo apt install -f  && rm /tmp/puffin-internet-terminal_demo.dpkg
 ```
 
+## Arch Linux based distros (pacman)
+- Full version
+```
+yay -S puffin-internet-terminal-bin
+```
+- Demo version*
+```
+yay -S puffin-internet-terminal-demo-bin
+```
+
+For more information, visit https://github.com/ZhymabekRoman/puffin-internet-terminal-arch
+
 ## "I have an X distribution, with another package manager instead of apt".
-You need to extract the deb files and try to run the executable. Unfortunately I can't guarantee a result. In Arch, I've tried to get Puffin to run without fussing, and it's working.
+You need to extract the deb files and try to run the executable. Unfortunately I can't guarantee a result.
 
 ## Run:
 - Full version
